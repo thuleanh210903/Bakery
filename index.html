@@ -18,14 +18,84 @@
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-         
+         <nav class="nav container">
+            <a href="#" class="nav__logo">Bakery</a>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link">Home</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#new" class="nav__link">News</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">About Us</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#favourite" class="nav__link">Favorites</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#visit" class="nav__link">Location</a>
+                  </li> 
+               </ul>
+
+               <!--close button-->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+
+               <img src="assets/img/bread-4.png" class="nav__img-1" alt="image" >
+               <img src="assets/img/bread-1.png" alt="image" class="nav__img-2" >
+            </div>
+
+            <!--toggle button-->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-fill"></i>
+            </div>
+         </nav>
       </header>
 
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
-            
+            <img src="assets/img/home-bg.jpg" alt="image" class="home__bg">
+            <div class="home__shadow"></div>
+
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">
+                     Select The Best <br> Quality Breads
+                  </h1>
+                  <a href="#" type="button">Select Breads</a>
+
+                  <img src="assets/img/bread-1.png" alt="image" class="home__bread">
+               </div>
+
+               <div class="home__image">
+                  <img src="assets/img/home-bread.png" alt="image" class="">
+               </div>
+
+               <footer class="home__footer">
+                  <div class="home__location">
+                     <i class="ri-map-pin-line"></i>
+                     <span>AV. The Sun #321 <br> Lima Peru</span>
+                  </div>
+
+                  <div class="home__social">
+                     <a href="" target="_blank">
+                        <i class="ri-facebook-circle-line"></i>
+                     </a>
+                     <a href="" target="_blank">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+                     <a href="" target="_blank">
+                        <i class="ri-youtube-line"></i>
+                     </a>
+
+                  </div>
+               </footer>
+            </div>
          </section>
 
          <!--==================== NEWS ====================-->
